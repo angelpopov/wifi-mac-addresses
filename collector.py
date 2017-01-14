@@ -111,18 +111,7 @@ def show_mac(list):
                 print time.strftime("%Y-%m-%d %H:%M:%S",time.localtime(int(x)))
             print x,
 def main():
-    known={'94:DE:80:7B:A7:55':'               pc',
-           '30:B5:C2:AF:23:7E':'      tp-link-lan',
-           '30:B5:C2:AF:23:7F':'      tp-link-wan',
-           '54:EF:92:07:6C:40':'    Clock android',
-           '30:A8:DB:08:19:0B':'    Ioana android',
-           '78:00:9E:DF:EE:F8':'    Sasha android',
-           '7C:D1:C3:F5:74:F7':'        Mitko Mac',
-           'A8:8E:24:3A:F6:09':'     Mitko iPhone',
-           '54:EF:92:5A:16:1D':'    Angel android',
-           'C4:36:6C:32:B1:76':'     Sysed Foxcon',
-           'C4:46:19:54:59:EF':'             acer',
-           'DC:CF:96:42:2D:CB':'         SamsungM'}
+    known={'xx:xx:xx:xx:xx:xx':'               pc'}
     
     d = {}
     tn = init_kismet()
